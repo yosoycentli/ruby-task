@@ -3,6 +3,7 @@ class BooksController < ApplicationController
 
   # GET /books or /books.json
   def index
+    # binding.break <-- Use it to stop the process and debug anything you want, you can affect variables and see the result
     @books = Book.all
   end
 
