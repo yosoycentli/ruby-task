@@ -5,10 +5,10 @@
 
   .form-inputs
     = f.input :first_name, label: t('users.first_name'), as: :text
-    = f.input :last_name
-    = f.input :address
-    = f.input :about_me
-    = f.input :phone
+    = f.input :last_name, label: t('.last_name')
+    = f.input :address, label: t('.addres')
+    = f.input :about_me, label: t('.about_me')
+    = f.input :phone, label: t('.phone')
 
   .form-actions
     = f.button :submit
